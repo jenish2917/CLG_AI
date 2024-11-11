@@ -3,11 +3,11 @@ import RemoveBg from "@/components/RemoveBg";
 
 const HeroSection = () => {
   return (
-    <section className="w-full pt-12 flex flex-col justify-center items-center md:pt-24 lg:pt-32">
+    <section className="h-screen w-full flex flex-col justify-center items-center md:pt-24 lg:pt-32">
       <div className="container space-y-10 xl:space-y-16">
-        <div className="flex flex-col items-center space-y-4 text-center">
-          <div className="space-y-2">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+        <div className="flex flex-col items-center justify-center space-y-4  text-center">
+          <div className="space-y-2 flex flex-col items-center justify-center align-center">
+            <h1 className="text-3xl font-bold tracking-tighter  sm:text-4xl md:text-5xl lg:text-6xl/none">
               Unleash Your Creativity
             </h1>
             <p className="mx-auto  text-muted-foreground md:text-xl">
